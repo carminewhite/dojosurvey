@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form Submitted</title>
+    <link rel="stylesheet" type="text/css" href="static/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="formholder">
+            <h3>Submitted Info</h3>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>Name:</td>
+                        <td>{{ ninjas['nm'] }}</td>
+                    </tr>
+                    <tr>
+                        <td>Dojo Location:</td>
+                        <td>{{ ninjas['lc'] }}</td>
+                    </tr>
+                    <tr>
+                        <td>Favorite Language:</td>
+                        <td>{{ ninjas['ln'] }}</td>
+                    </tr>
+                    <tr>
+                        <td>Comment:</td>
+                        <td>{{ ninjas['cmt'] }}</td>
+                    </tr>
+                </tbody>
+            </table>
+            <a href="/"><button>Go Back</button></a>
+        </div>
+
+</body>
+</html>
